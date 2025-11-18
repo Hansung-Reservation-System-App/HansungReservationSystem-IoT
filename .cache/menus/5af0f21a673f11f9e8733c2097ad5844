@@ -1,0 +1,1312 @@
+1.2
+lxde-pi-applications.menu+hidden
+18
+D/home/pi/.local/share/desktop-directories
+D~/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/raspi-ui-overrides/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/home/pi/.local/share/applications
+D~/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/raspi-ui-overrides/applications
+D/usr/share/applications
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/etc/xdg/menus/applications-merged
+D/home/pi/.config/menus/applications-merged
+F/home/pi/.config/menus/lxde-pi-applications.menu
+F/etc/xdg/menus/lxde-pi-applications.menu
+MATE;Unity;Phosh;
++Applications
+프로그램
+프로그램
+applications-other
+lxde-menu-applications.directory
+4
+0
++Development
+개발
+소프트웨어 개발을 위한 도구
+applications-development
+lxde-development.directory
+4
+0
+-python3.11.desktop
+Python (v3.11)
+Python Interpreter (v3.11)
+/usr/share/pixmaps/python3.11.xpm
+
+11
+
+/usr/bin/python3.11
+7
+0
+
+
+Development
+
+-scratch.desktop
+Scratch
+Programming system and content development tool
+scratch
+
+10
+
+scratch %f
+0
+0
+scratch
+
+Application;Development;ComputerScience
+
+-org.thonny.Thonny.desktop
+Thonny
+Python IDE for beginners
+thonny
+
+11
+Python IDE
+/usr/bin/thonny %F
+0
+0
+
+
+Development;IDE
+programming,education
+-geany.desktop
+지니
+빠르고 가벼운 GTK+ 기반의 통합개발환경
+geany
+
+10
+통합 개발 환경
+geany %F
+2
+0
+geany
+
+GTK;Development;IDE;TextEditor
+Text,Editor
+
++Education
+교육
+
+applications-science
+lxde-education.directory
+4
+4
+
++Office
+오피스
+오피스 응용프로그램
+applications-office
+lxde-office.directory
+4
+0
+-libreoffice-draw.desktop
+LibreOffice Draw
+Create and edit drawings, flow charts and logos
+libreoffice-draw
+
+10
+Drawing Program
+libreoffice --draw %U
+2
+0
+libreoffice
+
+Office;FlowChart;2DGraphics;VectorGraphics
+Vector,Schema,Diagram,Layout,OpenDocument Graphics,Microsoft Publisher,Microsoft Visio,Corel Draw,cdr,odg,svg,pdf,vsd
+-org.gnome.Evince-previewer.desktop
+인쇄 미리 보기
+인쇄 전에 미리 보기
+document-print-preview
+
+11
+
+evince-previewer %U
+6
+0
+evince-previewer
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+
+
++Internet
+인터넷
+웹과 전자메일 같은 인터넷에 접근 가능한 프로그램
+applications-internet
+lxde-network.directory
+4
+0
+-chromium.desktop
+Chromium 웹 브라우저
+인터넷에 연결합니다
+chromium
+
+11
+웹 브라우저
+/usr/bin/chromium %U
+2
+0
+
+
+Network;WebBrowser
+browser
+-firefox.desktop
+Firefox
+웹을 돌아 다닙니다
+firefox
+
+11
+웹 브라우저
+/usr/bin/firefox %u
+2
+0
+
+
+Network;WebBrowser
+
+-realvnc-vncserver-service.desktop
+VNC Server
+Start VNC Server in Service Mode
+/usr/share/icons/hicolor/48x48/apps/vncserver48x48.png
+
+10
+VNC Server
+/usr/bin/pkexec /etc/vnc/vncservice start vncserver-x11-serviced
+4
+0
+
+
+Application;Network;RemoteAccess
+
+-lxde-x-www-browser.desktop
+Web Browser
+
+web-browser
+
+11
+X Web Browser
+/usr/bin/x-www-browser %u
+4
+0
+
+
+GTK;WebBrowser;Network
+
+
++Multimedia
+음악과 비디오
+멀티미디어 메뉴
+applications-multimedia
+lxde-audio-video.directory
+4
+0
+-vlc.desktop
+VLC 미디어 플레이어
+당신의 멀티미디어 스트림을 캡쳐 및 방송 할 수 있습니다
+vlc
+
+10
+미디어 플레이어
+/usr/bin/vlc --started-from-file %U
+0
+0
+/usr/bin/vlc
+
+AudioVideo;Player;Recorder
+Player,Capture,DVD,Audio,Video,Server,Broadcast
+
++Graphics
+그래픽
+그래픽 응용프로그램
+applications-graphics
+lxde-graphics.directory
+4
+0
+-eom.desktop
+MATE의 눈 이미지 뷰어
+그림 살펴보기 및 돌리기
+eom
+
+10
+
+eom %U
+2
+0
+eom
+
+GTK;Graphics;2DGraphics;RasterGraphics;Viewer
+image,이미지,그림,viewer,보기,뷰어,JPEG,PNG,TIFF,SVG,MATE,MATE,photos,사진,browse,탐색,찾아보기,thumbnails,미리보기,섬네일,썸네일,rotate,회전
+-org.gnome.Evince-previewer.desktop
+인쇄 미리 보기
+인쇄 전에 미리 보기
+document-print-preview
+
+11
+
+evince-previewer %U
+6
+0
+evince-previewer
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+
+
++Games
+게임
+게임 메뉴
+applications-games
+lxde-game.directory
+4
+4
+
++Other
+기타
+어떤 범주에도 해당되지 않는 프로그램
+applications-other
+lxde-other.directory
+4
+0
+-zenoty-dialog-error.desktop
+Dialog Error Icon
+
+dialog-error
+
+11
+
+zenoty
+4
+0
+
+
+
+
+-zenoty-dialog-information.desktop
+Dialog Info Icon
+
+dialog-information
+
+11
+
+zenoty
+4
+0
+
+
+
+
+-zenoty-dialog-question.desktop
+Dialog Question Icon
+
+dialog-question
+
+11
+
+zenoty
+4
+0
+
+
+
+
+-zenoty-dialog-warning.desktop
+Dialog Warning Icon
+
+dialog-warning
+
+11
+
+zenoty
+4
+0
+
+
+
+
+-lp-connection-editor.desktop
+Icon for network dialogs
+
+network-transmit-receive
+
+11
+
+lp-connection-editor
+4
+0
+
+
+
+
+-wf-panel-pi.desktop
+Icon for panel dialogs
+
+preferences-desktop
+
+11
+
+wf-panel-pi
+4
+0
+
+
+
+
+-lxde-logout.desktop
+Logout
+Logout, shutdown or reboot
+gnome-logout
+
+11
+
+lxde-logout
+4
+0
+lxsession-logout
+
+
+
+-openbox.desktop
+Openbox
+
+openbox
+
+11
+
+openbox
+4
+0
+
+
+
+wm,windowmanager,window,manager,gnome
+-xdg-desktop-portal-gtk.desktop
+Portal
+
+applications-system-symbolic
+
+11
+
+/usr/libexec/xdg-desktop-portal-gtk
+4
+0
+
+
+
+
+-x-www-browser.desktop
+Preferred Browser
+
+
+
+10
+
+x-www-browser %U
+6
+0
+/usr/bin/x-www-browser
+
+
+
+-lxde-screenlock.desktop
+ScreenLock
+Lock your screen
+system-lock-screen
+
+11
+
+lxlock
+4
+0
+lxlock
+
+
+
+-pishutdown.desktop
+Shutdown
+
+system-shutdown
+
+11
+
+pishutdown
+4
+0
+
+
+
+
+-realvnc-vncserverui-user.desktop
+VNC Server
+
+/usr/share/icons/hicolor/48x48/apps/vncserver48x48.png
+
+11
+VNC Server
+vncserver-x11 -showstatus
+4
+0
+
+
+
+
+-realvnc-vncserverui-service.desktop
+VNC Server
+
+/usr/share/icons/hicolor/48x48/apps/vncserver48x48.png
+
+11
+VNC Server
+
+4
+0
+
+
+
+
+-realvnc-vncserverui-virtual.desktop
+VNC Server
+
+/usr/share/icons/hicolor/48x48/apps/vncserver48x48.png
+
+11
+VNC Server
+vncserver-x11 -virtual -showexistingstatus
+4
+0
+
+
+
+
+-realvnc-vnclicensewiz.desktop
+VNC Server - Licensing
+
+/usr/share/icons/hicolor/48x48/apps/vncserver48x48.png
+
+11
+VNC Server
+
+4
+0
+
+
+
+
+-realvnc-vncviewer-scheme.desktop
+VNC Viewer URL Handler
+
+
+
+11
+
+vncviewer -uri %u
+4
+0
+
+
+
+
+-dillo.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-htop.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-libreoffice-startcenter.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-lxappearance.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-lxhotkey-gtk.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-lxrandr.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-lxsession-edit.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-obconf.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-org.rncbc.qjackctl.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-org.xfce.mousepad-settings.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-pcmanfm-desktop-pref.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-squeak.desktop
+
+
+
+
+10
+
+
+4
+0
+
+
+
+
+-notification-daemon.desktop
+알림 데몬
+알림 표시
+
+
+11
+
+/usr/lib/notification-daemon/notification-daemon
+4
+0
+
+
+
+
+-org.freedesktop.IBus.Panel.Emojier.desktop
+이모지 선택
+
+ibus
+
+11
+
+ibus emoji
+4
+0
+
+
+
+
+-org.freedesktop.IBus.Panel.Extension.Gtk3.desktop
+이모지 선택
+
+ibus
+
+11
+
+/usr/libexec/ibus-extension-gtk3
+4
+0
+
+
+
+
+-gcr-viewer.desktop
+파일 보기
+
+
+
+11
+
+/usr/bin/gcr-viewer
+4
+0
+
+
+
+
+-gcr-prompter.desktop
+프롬프트 접근
+암호 및 기타 비밀 정보 접근에 대한 잠금을 풉니다
+security-medium
+
+11
+
+/usr/libexec/gcr-prompter
+4
+0
+
+
+
+
+
++System
+시스템 도구
+시스템 설정과 감시
+applications-system
+lxde-system-tools.directory
+4
+0
+-lxde-x-terminal-emulator.desktop
+Terminal emulator
+Terminal Emulator
+terminal
+
+11
+Terminal Emulator
+/usr/bin/x-terminal-emulator
+6
+0
+
+
+System;TerminalEmulator;Utility
+
+-pi-gpk-dbus-service.desktop
+소프트웨어 설치
+선택한 소프트웨어를 시스템에 설치합니다
+system-software-install
+
+11
+
+pi-gpk-dbus-service
+6
+0
+
+
+System
+
+-pi-gpk-log.desktop
+패키지 기록
+패키지 관리 작업 내역을 봅니다
+gpk-log
+
+11
+
+pi-gpk-log
+6
+0
+
+
+GNOME;GTK;System
+
+-pi-gpk-install-local-file.desktop
+패키지 설치
+선택한 패키지를 시스템에 설치합니다
+system-software-install
+
+11
+
+pi-gpk-install-local-file %F
+6
+0
+
+
+System
+
+-pi-gpk-update-viewer.desktop
+패키지 업데이트
+시스템에 설치한 소프트웨어를 업데이트합니다
+system-software-update
+
+11
+
+pi-gpk-update-viewer
+6
+-5
+
+
+GNOME;GTK;System
+
+
++Accessories
+보조 프로그램
+바탕환경의 보조 프로그램
+applications-accessories
+lxde-utility.directory
+4
+0
+-xarchiver.desktop
+Archiver
+A GTK+ only archive manager
+xarchiver
+
+10
+Archive manager
+xarchiver %f
+2
+0
+xarchiver
+
+GTK;Archiving;Compression;Utility
+GTK,android,archiver,archiving,comic book,compression,front end,frontend,library,7-zip,7z,7za,7zip,7zr,7zz,apk,ar,arj,bz2,bzip2,cab,cbz,compress,cpio,deb,epub,exe,gtar,gunzip,gz,gzip,iso,jar,jsonlz4,lbzip2,lha,lrz,lrzip,lsar,lunzip,lz,lz4,lzh,lzip,lzma,lzo,lzop,mksquashfs,mozlz4,oxt,pbzip2,pigz,plzip,rar,rar4,rar5,rpm,snap,squashfs,tar,unar,unarchiver,unarj,unrar,unsquashfs,unzip,xpi,xz,zip,zpaq,zst,Zstandard,zstd
+-galculator.desktop
+Calculator
+일반 계산, 과학 용도 계산을 수행 합니다
+galculator
+
+10
+
+galculator
+2
+0
+galculator
+
+Utility
+
+-org.raspberrypi.rpi-imager.desktop
+Imager
+Raspberry Pi Imager
+rpi-imager
+
+11
+
+rpi-imager %F
+0
+0
+
+
+Utility
+
+-lxterminal.desktop
+LXTerminal
+명령 행을 사용합니다
+lxterminal
+
+10
+터미널
+lxterminal
+0
+0
+lxterminal
+
+GTK;Utility;TerminalEmulator
+console,콘솔,command line,명령줄,execute,실행
+-pcmanfm.desktop
+PCManFM 파일 관리자
+파일 시스템을 탐색하고 파일을 관리합니다
+system-file-manager
+
+10
+파일 관리자
+pcmanfm %U
+2
+0
+pcmanfm
+
+FileTools;FileManager;Utility;Core;GTK
+
+-piclone.desktop
+SD 카드 복사기
+라즈비안(Raspbian) SD 카드의 복사본 만들기
+media-removable
+
+11
+SD 카드 복사기
+piclone
+2
+0
+
+
+Utility
+
+-vim.desktop
+Vim
+텍스트 파일을 편집합니다
+gvim
+
+11
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+Text,editor
+-agnostics.desktop
+라즈베리 파이 진단도구
+라즈베리 파이 하드웨어 테스트
+diagnostics
+
+11
+라즈베리 파이 진단도구
+agnostics
+2
+0
+
+
+Utility
+
+-org.xfce.mousepad.desktop
+마우스패드
+간단한 문서 편집기
+org.xfce.mousepad
+
+10
+문서 편집기
+mousepad %U
+2
+0
+mousepad
+
+Utility;TextEditor;GTK
+
+-org.gnome.Evince.desktop
+문서 보기
+다중 페이지 문서를 봅니다
+org.gnome.Evince
+
+10
+
+evince %U
+2
+0
+evince
+
+GNOME;GTK;Utility;Viewer;2DGraphics;VectorGraphics
+pdf,ps,postscript,포스트스크립트,dvi,xps,djvu,tiff,document,문서,presentation,프리젠테이션,viewer,뷰어,보기,evince,에빈스
+-sm.puri.Squeekboard.desktop
+스퀴크 보드
+가상 키보드
+input-keyboard-symbolic
+
+11
+화상 키보드
+/usr/bin/squeekboard
+4
+128
+
+
+GTK;Utility
+
+-sm.puri.OSK0.desktop
+스퀴크 보드
+가상 키보드
+input-keyboard-symbolic
+
+11
+화상 키보드
+/usr/bin/squeekboard
+4
+128
+
+
+GTK;Utility
+
+-lxtask.desktop
+작업 관리자
+실행중인 프로세스를 관리합니다
+utilities-system-monitor
+
+10
+프로세스 관리자
+lxtask
+2
+0
+lxtask
+
+GTK;Utility;Monitor
+task,작업,kill,강제 종료,suspend,대기,processor,프로세서,memory,메모리,monitoring,모니터링,performance,성능
+
++Universal Access
+보편적 접근성
+보편적 접근성 설정
+preferences-desktop-accessibility
+lxde-utility-accessibility.directory
+4
+4
+
+-
++Help
+Help
+Reference material
+gnome-help
+lxde-help.directory
+3
+0
+-debian-reference-common.desktop
+Debian Reference
+Debian Reference Guide
+debian-reference
+
+10
+
+debian-reference
+0
+0
+debian-reference
+
+Help
+user,shell,command,documentation,manual,help,guide,debian
+-raspi_getstart.desktop
+Get Started
+
+rpi
+
+10
+
+x-www-browser https://rptl.io/get-started
+2
+0
+/usr/bin/x-www-browser
+
+Help
+
+-raspi_help.desktop
+Help
+
+rpi
+
+10
+
+x-www-browser https://rptl.io/help
+2
+0
+/usr/bin/x-www-browser
+
+Help
+
+-raspi_resources.desktop
+Projects
+
+rpi
+
+10
+
+x-www-browser https://rptl.io/tutorials
+2
+0
+/usr/bin/x-www-browser
+
+Help
+
+-raspi_safety.desktop
+Safety Information
+
+rpi
+
+10
+
+x-www-browser https://rptl.io/safety-info
+2
+0
+/usr/bin/x-www-browser
+
+Help
+
+-rp-bookshelf.desktop
+책장
+라즈베리 파이 보도자료 간행물을 내려받고 읽기
+bookshelf
+
+11
+책장
+rp-bookshelf
+2
+0
+
+
+Help
+
+
+-
++DesktopSettings
+기본 설정
+개인 기본 설정
+preferences-desktop
+lxde-settings.directory
+4
+0
+-pi-packages.desktop
+Add / Remove Software
+시스템에 설치하는 소프트웨어를 추가하거나 제거합니다
+system-software-install
+
+11
+
+pi-packages
+2
+-5
+
+
+GNOME;GTK;System;Settings;PackageManager
+Updates,업데이트,Upgrade,업그레이드,Sources,공급원,Repositories,저장소,Preferences,설정,Install,설치,Store,마켓,스토어
+-org.freedesktop.IBus.Setup.desktop
+IBus 기본 설정
+IBus 기본 설정 변경
+ibus-setup
+
+11
+
+ibus-setup
+2
+-67
+
+
+Settings
+keyboard,input
+-ibus-setup-hangul.desktop
+IBus 한글 설정
+IBus 한글 엔진을 설정합니다
+ibus-setup-hangul
+
+11
+
+ibus-setup-hangul
+6
+0
+
+
+Settings
+
+-alacarte.desktop
+Main Menu Editor
+Add or remove applications from the main menu
+alacarte
+
+11
+
+alacarte
+2
+-5
+
+
+GNOME;Settings;DesktopSettings
+
+-qt5ct.desktop
+Qt5 Settings
+Qt5 Configuration Tool
+preferences-desktop-theme
+
+10
+
+qt5ct
+4
+0
+
+
+Settings;DesktopSettings;Qt
+settings,desktop,qt,qtsettings,qt5
+-raindrop.desktop
+Screen Configuration
+Configure monitor arrangement, scaling and orientation
+computer
+
+11
+
+raindrop
+2
+0
+
+
+Settings
+
+-rp-prefapps.desktop
+권장 소프트웨어
+라즈베리 파이에서 사용하도록 권장하는 추가 프로그램 설치
+rpi
+
+11
+권장 소프트웨어
+rp-prefapps
+2
+0
+
+
+Settings;DesktopSettings;GTK;X-LXDE-Settings
+
+-rc_gui.desktop
+라즈베리 파이 환경설정
+라즈베리 파이 시스템 설정
+rpi
+
+11
+
+rc_gui
+2
+0
+
+
+Settings
+
+-pipanel.desktop
+외형 설정
+바탕화면과 창의 외형 구성
+preferences-desktop-theme
+
+11
+
+pipanel
+2
+0
+
+
+Settings
+
+-im-config.desktop
+입력기
+Set Keyboard Input Method
+input-keyboard
+
+11
+
+im-config
+0
+0
+
+
+Settings
+keyboard,input
+-rasputin.desktop
+키보드와 마우스
+키보드와 마우스 그리고 다른 입력 장치를 설정합니다
+preferences-desktop-peripherals
+
+11
+
+rasputin
+2
+0
+
+
+Settings
+
+-pi-gpk-prefs.desktop
+패키지 공급원
+패키지 저장소를 사용하거나 사용하지 않습니다
+gpk-prefs
+
+11
+
+pi-gpk-prefs
+6
+-5
+
+
+Settings;X-GNOME-SystemSettings
+
+-rpinters.desktop
+프린터
+Add and configure printers
+printer
+
+11
+
+rpinters
+2
+0
+
+
+Settings
+
+
+
