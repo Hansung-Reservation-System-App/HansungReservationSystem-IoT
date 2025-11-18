@@ -1,4 +1,4 @@
-Xsession: X session started for pi at 2025. 11. 18. (화) 13:34:44 KST
+Xsession: X session started for pi at 2025. 11. 18. (화) 13:56:38 KST
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 xrdb: Can't open display ''
 xhost:  unable to open display ""
@@ -28,8 +28,8 @@ dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/
 dbus-update-activation-environment: setting QT_IM_MODULE=ibus
 dbus-update-activation-environment: setting PWD=/home/pi
 dbus-update-activation-environment: setting CLUTTER_IM_MODULE=ibus
-00:00:00.122 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
-00:00:00.122 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+00:00:00.128 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+00:00:00.128 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
 no profile matched
 오류: 이러한 엔티티가 없음
 pgrep: 15글자를 넘는 프로세스 이름 패턴 검색시 일치하는 항목이 없을 수 있습니다
@@ -37,93 +37,29 @@ pgrep: 15글자를 넘는 프로세스 이름 패턴 검색시 일치하는 항�
 pgrep: 15글자를 넘는 프로세스 이름 패턴 검색시 일치하는 항목이 없을 수 있습니다
 완전한 명령행과 일치하는 항목을 검색하려면 `pgrep -f' 옵션을 사용하십시오.
 
-(polkit-mate-authentication-agent-1:919): GLib-CRITICAL **: 13:34:48.229: g_variant_new_string: assertion 'string != NULL' failed
+(polkit-mate-authentication-agent-1:922): GLib-CRITICAL **: 13:56:42.703: g_variant_new_string: assertion 'string != NULL' failed
 
-(polkit-mate-authentication-agent-1:919): polkit-mate-1-WARNING **: 13:34:48.231: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(polkit-mate-authentication-agent-1:922): polkit-mate-1-WARNING **: 13:56:42.705: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 The XKEYBOARD keymap compiler (xkbcomp) reports:
 > Warning:          Unsupported maximum keycode 708, clipping.
 >                   X11 cannot support keycodes above 255.
 Errors from xkbcomp are not fatal to the X server
 xsettingsd: Loaded 19 settings from /home/pi/.config/xsettingsd/xsettingsd.conf
-xsettingsd: Created window 0x800001 on screen 0 with timestamp 16666
+xsettingsd: Created window 0x800001 on screen 0 with timestamp 15937
 xsettingsd: Selection _XSETTINGS_S0 is owned by 0x0
 xsettingsd: Took ownership of selection _XSETTINGS_S0
 xsettingsd: Ignoring event of type 33
-00:00:03.005 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
-00:00:03.007 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
-00:00:03.010 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
-00:00:03.010 [ERROR] [xwayland/xwm.c:1633] xcb error: op ConfigureWindow (no minor), code Window (no extension), sequence 180, value 4194307
-00:00:03.010 [ERROR] [xwayland/xwm.c:1633] xcb error: op ChangeProperty (no minor), code Window (no extension), sequence 183, value 4194307
-00:00:03.010 [ERROR] [xwayland/xwm.c:1633] xcb error: op DeleteProperty (no minor), code Window (no extension), sequence 184, value 4194307
-00:00:03.407 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
-** Message: 13:34:50.558: batt: battery 0 not found
-00:00:04.573 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
-** Message: 13:34:51.157: up: Checking for updates
-** Message: 13:34:55.556: up: Cache updated - comparing versions
-** Message: 13:34:59.960: up: Check complete - no updates available
-00:00:20.659 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
-00:00:20.659 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
-
-** (wf-panel-pi:970): WARNING **: 13:37:49.208: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:37:49.209: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:37:53.214: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:37:53.214: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:38:11.676: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:38:11.676: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:38:23.080: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:38:23.080: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:38:23.089: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:38:23.089: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:38:30.866: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:38:30.867: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:38:38.630: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:38:38.630: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:38:43.341: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:38:43.341: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:39:07.111: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:39:07.111: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:39:18.440: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:39:18.440: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:39:30.694: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:39:30.694: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:39:40.824: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:39:40.823: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:39:40.832: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:39:40.832: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:39:42.583: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:39:42.583: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:39:50.450: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:39:50.450: templates monitor: change for unknown file
-
-** (wf-panel-pi:970): WARNING **: 13:39:52.792: templates monitor: change for unknown file
-
-** (pcmanfm:981): WARNING **: 13:39:52.793: templates monitor: change for unknown file
+00:00:03.021 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
+00:00:03.022 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
+00:00:03.023 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
+00:00:03.023 [ERROR] [xwayland/xwm.c:1633] xcb error: op ConfigureWindow (no minor), code Window (no extension), sequence 183, value 4194307
+00:00:03.023 [ERROR] [xwayland/xwm.c:1633] xcb error: op ChangeProperty (no minor), code Window (no extension), sequence 186, value 4194307
+00:00:03.023 [ERROR] [xwayland/xwm.c:1633] xcb error: op DeleteProperty (no minor), code Window (no extension), sequence 187, value 4194307
+00:00:03.358 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+** Message: 13:56:45.029: batt: battery 0 not found
+00:00:04.606 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+** Message: 13:56:45.609: up: Checking for updates
+** Message: 13:56:50.056: up: Cache updated - comparing versions
+** Message: 13:56:54.405: up: Check complete - no updates available
+00:00:20.656 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+00:00:20.656 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD

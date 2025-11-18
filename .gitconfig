@@ -1,3 +1,5 @@
 [user]
 	name = KIMsangwook
 	email = 0509tkddnr@naver.com
+[credential]
+	helper = store
