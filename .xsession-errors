@@ -1,4 +1,4 @@
-Xsession: X session started for pi at 2025. 11. 18. (화) 14:02:17 KST
+Xsession: X session started for pi at 2025. 11. 19. (수) 17:40:08 KST
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 xrdb: Can't open display ''
 xhost:  unable to open display ""
@@ -28,8 +28,8 @@ dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/
 dbus-update-activation-environment: setting QT_IM_MODULE=ibus
 dbus-update-activation-environment: setting PWD=/home/pi
 dbus-update-activation-environment: setting CLUTTER_IM_MODULE=ibus
-00:00:00.121 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
-00:00:00.121 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+00:00:00.128 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+00:00:00.128 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
 no profile matched
 오류: 이러한 엔티티가 없음
 pgrep: 15글자를 넘는 프로세스 이름 패턴 검색시 일치하는 항목이 없을 수 있습니다
@@ -37,32 +37,32 @@ pgrep: 15글자를 넘는 프로세스 이름 패턴 검색시 일치하는 항�
 pgrep: 15글자를 넘는 프로세스 이름 패턴 검색시 일치하는 항목이 없을 수 있습니다
 완전한 명령행과 일치하는 항목을 검색하려면 `pgrep -f' 옵션을 사용하십시오.
 
-(polkit-mate-authentication-agent-1:881): GLib-CRITICAL **: 14:02:21.616: g_variant_new_string: assertion 'string != NULL' failed
+(polkit-mate-authentication-agent-1:878): GLib-CRITICAL **: 17:40:12.337: g_variant_new_string: assertion 'string != NULL' failed
 
-(polkit-mate-authentication-agent-1:881): polkit-mate-1-WARNING **: 14:02:21.618: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(polkit-mate-authentication-agent-1:878): polkit-mate-1-WARNING **: 17:40:12.338: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 The XKEYBOARD keymap compiler (xkbcomp) reports:
 > Warning:          Unsupported maximum keycode 708, clipping.
 >                   X11 cannot support keycodes above 255.
 Errors from xkbcomp are not fatal to the X server
 xsettingsd: Loaded 19 settings from /home/pi/.config/xsettingsd/xsettingsd.conf
-xsettingsd: Created window 0x800001 on screen 0 with timestamp 15940
+xsettingsd: Created window 0x800001 on screen 0 with timestamp 15468
 xsettingsd: Selection _XSETTINGS_S0 is owned by 0x0
 xsettingsd: Took ownership of selection _XSETTINGS_S0
 xsettingsd: Ignoring event of type 33
-00:00:03.046 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
-00:00:03.047 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
-00:00:03.048 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
-00:00:03.048 [ERROR] [xwayland/xwm.c:1633] xcb error: op ConfigureWindow (no minor), code Window (no extension), sequence 178, value 6291459
-00:00:03.048 [ERROR] [xwayland/xwm.c:1633] xcb error: op ChangeProperty (no minor), code Window (no extension), sequence 181, value 6291459
-00:00:03.048 [ERROR] [xwayland/xwm.c:1633] xcb error: op DeleteProperty (no minor), code Window (no extension), sequence 182, value 6291459
-00:00:03.360 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
-** Message: 14:02:24.024: batt: battery 0 not found
-00:00:04.665 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
-** Message: 14:02:24.618: up: No network connection - polling...
-00:00:23.878 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
-00:00:23.878 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
-00:00:40.969 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
-00:00:40.969 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
-** Message: 16:21:21.973: up: Checking for updates
-** Message: 16:21:51.818: up: Cache updated - comparing versions
-** Message: 16:21:56.041: up: Check complete - no updates available
+00:00:03.077 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
+00:00:03.077 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
+00:00:03.077 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
+00:00:03.077 [ERROR] [xwayland/xwm.c:1192] Failed to get window property
+00:00:03.078 [ERROR] [xwayland/xwm.c:1633] xcb error: op ConfigureWindow (no minor), code Window (no extension), sequence 183, value 4194307
+00:00:03.078 [ERROR] [xwayland/xwm.c:1633] xcb error: op ChangeProperty (no minor), code Window (no extension), sequence 186, value 4194307
+00:00:03.078 [ERROR] [xwayland/xwm.c:1633] xcb error: op DeleteProperty (no minor), code Window (no extension), sequence 187, value 4194307
+00:00:03.303 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+** Message: 17:40:14.842: batt: battery 0 not found
+00:00:04.687 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+** Message: 17:40:15.497: up: Checking for updates
+** Message: 17:40:20.710: up: Error updating cache - W: http://raspbian.raspberrypi.com/raspbian/dists/bookworm/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+E: Release file for http://raspbian.raspberrypi.com/raspbian/dists/bookworm/InRelease is not valid yet (invalid for another 13시간 44분 14초). Updates for this repository will not be applied.
+E: Release file for http://archive.raspberrypi.com/debian/dists/bookworm/InRelease is not valid yet (invalid for another 13시간 7분 33초). Updates for this repository will not be applied.
+
+00:00:20.762 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+00:00:20.762 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
